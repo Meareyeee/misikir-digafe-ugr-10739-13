@@ -42,7 +42,7 @@ padding: 0 20px;
     color: #009688;
 }
 #banner{
-    background:linear-gradient(rgba(0,0,0,0.5),#009688), url(image/IMG_20230411_061329_721.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5),#009688), url(image/IMG_20230411_061403_950.jpg);
     background-size:cover;
     background-position: center;
     height: 100vh;
@@ -123,6 +123,26 @@ padding: 0 20px;
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
+}
+#banneree{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688), url(image/IMG_20230411_061329_721.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banneree-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+
+}
+.banneree-text h1{
+    font-size: 130px;
+}
+.banneree-text p{
+    font-size: 20px;
+    font-style: italic;
 }
 #manubtn img{
     width:50px ;
